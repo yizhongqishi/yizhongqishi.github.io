@@ -1,0 +1,11 @@
+# Setup
+name:         CYMX的避风港
+tagline:      My Home
+baseurl:      ""
+
+# Gems
+gems:
+  - jekyll-paginate
+
+#Others
+markdown: kramdown
