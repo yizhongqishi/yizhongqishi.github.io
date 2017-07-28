@@ -12,7 +12,7 @@ category: article
 
 在开始前，我需要准备建站的你具有这些知识：如何使用<a href="https://git-scm.com/">git</a>，以及<a href="https://github.com/">github</a>究竟是不是最大的同性交友网站。对于不能够顺利翻墙的Mac用户来说，需要有使用gem和homebrew的经验(不会的话复制命令总会吧),如果你碰巧满足这些条件，OK,here we go!<br>
 
-* 我们需要有一个GitHub的账号，没有的话请点击<a href="https://github.com/join?source=header-home">Sign up</a>进行注册，成功登陆GitHub后，创建一个新的仓库![创建新仓库](../../../../iimages/img-07-28.png)
+* 我们需要有一个GitHub的账号，没有的话请点击<a href="https://github.com/join?source=header-home">Sign up</a>进行注册，成功登陆GitHub后，创建一个新的仓库![创建新仓库](../../../../images/img-07-28.png)
 * 仓库名称为[你的用户名].github.io，协议选择GNU General Public Lisence v2.0，记得勾选上初始化README选项，点击Create reposltory创建仓库。创建成功后你输入网址[你的用户名].github.io会有和你的网址一样显示的网页![创建新仓库](../../../../images/img-07-28-01.png)
 * 接下来，打开你的命令行窗口，或许有不少人没用过gem进行软件的安装，这样建议更改gem源进行gem的更新，命令为：<br/><code>gem sources --remove https://rubygems.org/</code><br/><code>gem sources --add https://gems.ruby-china.org/</code><br/><code>gem update --system</code>其中第三条命令如果运行不成功在前面sudo，运行后需要耐心等待一段时间。然后安装jekyll，命令为<code>gem install jekyll</code>
 * 安装成功后，在<a href="http://jekyllthemes.org/">这个网站</a>寻找你想要使用的模版并下载到本地
