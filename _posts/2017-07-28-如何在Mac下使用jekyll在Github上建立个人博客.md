@@ -14,7 +14,7 @@ category: article
 
 * 我们需要有一个GitHub的账号，没有的话请点击<a href="https://github.com/join?source=header-home">Sign up</a>进行注册，成功登陆GitHub后，创建一个新的仓库![创建新仓库](../images/img-07-28.png)
 * 仓库名称为[你的用户名].github.io，协议选择GNU General Public Lisence v2.0，记得勾选上初始化README选项，点击Create reposltory创建仓库。创建成功后你输入网址[你的用户名].github.io会有和你的网址一样显示的网页![创建新仓库](../images/img-07-28-01.png)
-* 接下来，打开你的命令行窗口，或许有不少人没用过gem进行软件的安装，这样建议更改gem源进行gem的更新，命令为：<p><code>gem sources --remove https://rubygems.org/</code><br/><code>gem sources --add https://gems.ruby-china.org/</code><br/><code>gem update --system</code></p>其中第三条命令如果运行不成功在前面sudo，运行后需要耐心等待一段时间。然后安装jekyll，命令为<p><code>gem install jekyll</code></p>
+* 接下来，打开你的命令行窗口，或许有不少人没用过gem进行软件的安装，这样建议更改gem源进行gem的更新，命令为：<br/><code>gem sources --remove https://rubygems.org/</code><br/><code>gem sources --add https://gems.ruby-china.org/</code><br/><code>gem update --system</code>其中第三条命令如果运行不成功在前面sudo，运行后需要耐心等待一段时间。然后安装jekyll，命令为<code>gem install jekyll</code>
 * 安装成功后，在<a href="http://jekyllthemes.org/">这个网站</a>寻找你想要使用的模版并下载到本地
 * 在命令行下进入解压后的文件夹，git初始化文件夹。此时，假如没有特别的需求，就可以只是在_post文件夹里写我们的文章，记得文章名字要符合yy-mm-dd-xxxx.md，这些模版会在主页自动检索_post文件夹下所有的文件并显示在主页上。当然假如你有更多的需求，可以自己研究这些页面进行适当的修改
 * 简单介绍一下.md文件，这个是markdown文件，具体<a href="http://www.appinn.com/markdown/">markdown语法</a>请自行了解，而如何用jekyll更好更方便写出漂亮的文章，请参考<a href＝"http://yansu.org/2014/02/12/how-to-deploy-a-blog-on-github-by-jekyll.html">这个网站</a>，这里就不在赘述了。
