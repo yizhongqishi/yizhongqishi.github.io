@@ -2,6 +2,9 @@ _site
 .bundle
 .sass-cache
 Gemfile.lock
+_drafts/
+.DS_Store
+_posts/.DS_Store
 
 # Compiled class file
 *.class
